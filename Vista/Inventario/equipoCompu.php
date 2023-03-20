@@ -1,0 +1,1 @@
+<h1 class="app-page-title">Equipo de Cómputo</h1>
