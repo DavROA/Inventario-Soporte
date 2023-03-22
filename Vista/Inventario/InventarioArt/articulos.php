@@ -148,6 +148,18 @@
 </div>
 
 <!-- Tabla-->
+<nav id="orders-table-tab" class="orders-table-tab app-nav-tabs nav shadow-sm flex-column flex-sm-row mb-4">
+    <a class="flex-sm-fill text-sm-center nav-link active" id="orders-all-tab" data-bs-toggle="tab" href="#orders-all"
+        role="tab" aria-controls="orders-all" aria-selected="true">Todos los artículos</a>
+    <a class="flex-sm-fill text-sm-center nav-link" id="orders-paid-tab" data-bs-toggle="tab" href="#orders-paid"
+        role="tab" aria-controls="orders-paid" aria-selected="false">Componentes de salida</a>
+    <a class="flex-sm-fill text-sm-center nav-link" id="orders-pending-tab" data-bs-toggle="tab" href="#orders-pending"
+        role="tab" aria-controls="orders-pending" aria-selected="false">Componentes de almacenamiento</a>
+    <a class="flex-sm-fill text-sm-center nav-link" id="orders-cancelled-tab" data-bs-toggle="tab"
+        href="#orders-cancelled" role="tab" aria-controls="orders-cancelled" aria-selected="false">Componentes de red</a>
+</nav>
+
+
 <div class="tab-content" id="orders-table-tab-content">
     <div class="tab-pane fade show active" id="orders-all" role="tabpanel" aria-labelledby="orders-all-tab">
         <div class="app-card app-card-orders-table shadow-sm mb-5">
@@ -158,7 +170,7 @@
                             <tr>
                                 <th class="cell">Order</th>
                                 <th class="cell">Product</th>
-                                <th class="cell">Customer</th> 
+                                <th class="cell">Customer</th>
                                 <th class="cell">Date</th>
                                 <th class="cell">Status</th>
                                 <th class="cell">Total</th>
@@ -196,6 +208,7 @@
                                 <td class="cell">$123.00</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
                             <tr>
                                 <td class="cell">#15343</td>
                                 <td class="cell"><span class="truncate">Vestibulum a accumsan lectus sed mollis
@@ -207,6 +220,7 @@
                                 <td class="cell">$199.00</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
                             <tr>
                                 <td class="cell">#15342</td>
                                 <td class="cell"><span class="truncate">Justo feugiat neque</span></td>
@@ -217,6 +231,7 @@
                                 <td class="cell">$59.00</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
                             <tr>
                                 <td class="cell">#15341</td>
                                 <td class="cell"><span class="truncate">Morbi vulputate lacinia neque et
@@ -249,11 +264,11 @@
         </nav>
     </div>
 
-    <!--//tab-pane-->
     <div class="tab-pane fade" id="orders-paid" role="tabpanel" aria-labelledby="orders-paid-tab">
         <div class="app-card app-card-orders-table mb-5">
             <div class="app-card-body">
                 <div class="table-responsive">
+
                     <table class="table mb-0 text-left">
                         <thead>
                             <tr>
@@ -277,6 +292,7 @@
                                 <td class="cell">$259.35</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
                             <tr>
                                 <td class="cell">#15344</td>
                                 <td class="cell"><span class="truncate">Pellentesque diam imperdiet</span></td>
@@ -287,6 +303,7 @@
                                 <td class="cell">$123.00</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
                             <tr>
                                 <td class="cell">#15343</td>
                                 <td class="cell"><span class="truncate">Vestibulum a accumsan lectus sed mollis
@@ -298,6 +315,8 @@
                                 <td class="cell">$199.00</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
+
                             <tr>
                                 <td class="cell">#15341</td>
                                 <td class="cell"><span class="truncate">Morbi vulputate lacinia neque et
@@ -309,6 +328,7 @@
                                 <td class="cell">$678.26</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
                         </tbody>
                     </table>
                 </div>
@@ -366,6 +386,7 @@
                             </tr>
                         </thead>
                         <tbody>
+
                             <tr>
                                 <td class="cell">#15342</td>
                                 <td class="cell"><span class="truncate">Justo feugiat neque</span></td>
@@ -376,6 +397,7 @@
                                 <td class="cell">$59.00</td>
                                 <td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
                             </tr>
+
                         </tbody>
                     </table>
                 </div>

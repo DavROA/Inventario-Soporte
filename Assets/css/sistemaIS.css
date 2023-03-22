@@ -13986,3 +13986,68 @@ button.close:focus {
 }
 
 
+.border-radius-xl {
+    border-radius: 0.75rem;
+}
+
+.icon-shape {
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    border-radius: 0.5rem;
+} 
+
+
+.icon-lg {
+    width: 64px;
+    height: 64px;
+}
+
+.shadow-dark {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(64, 64, 64, 0.4) !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.icon-lg {
+    height: 1.6em;
+    width: 1.6em;
+}
+
+.icon {
+    color: #111111;
+    height: 1em;
+}
+
+.icon-lg i {
+    top: 32%;
+    font-size: 1.8rem;
+}
+
+.icon-shape i {
+    color: #216fe3;
+    opacity: 0.8;
+    top: 11px;
+    position: relative;
+}
+
+.material-icons {
+    font-family: 'Material Icons Round';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
