@@ -64,7 +64,83 @@
                     </form>
                 </div>
                 <div class="col-auto">
-                    <a class="btn app-btn-secondary" href="#">Agregar artículo</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn app-btn-secondary" data-bs-toggle="modal" data-bs-target="#modalaCrearArticulo">
+                        Agregar Artículo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalaCrearArticulo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Agregar Artículo</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="col-12 col-md-12">
+                    <form class="settings-form">
+                        <div class="mb-3">
+                            <label for="setting-input-1" class="form-label">Nombre<span class="ms-2"
+                                data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top"
+                                data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
+                            </label>
+                            <input type="text" class="form-control" id="setting-input-1" value="Lorem Ipsum Ltd." required>
+                        </div>
+
+                        <div class="row justify-content-between">
+                            <div class="col-6 mb-3">
+                                <label for="setting-input-1" class="form-label">Marca<span class="ms-2" data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
+                                </span></label>
+                                <input type="text" class="form-control" id="setting-input-1" value="Marca." required>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="setting-input-1" class="form-label">Modelo<span class="ms-2" data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
+                                </span></label>
+                                <input type="text" class="form-control" id="setting-input-1" value="Modelo." required>
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-6 mb-3">
+                                <label for="setting-input-1" class="form-label">N. Poliza<span class="ms-2" data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
+                                </span></label>
+                                <input type="text" class="form-control" id="setting-input-1" value="Poliza." required>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="setting-input-2" class="form-label">Categoría</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccionar Categoría</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>    
+                            </div> 
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-6 mb-3">
+                                <label for="setting-input-2" class="form-label">Estado</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Activo</option>
+                                    <option value="1">Inactivo</option>
+                                </select>    
+                            </div> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row justify-content-between">
+                    <div class="col-auto col-6">
+                        <a class="btn app-btn-primary" href="#">Guardar</a>
+                    </div>
+                    <div class="col-auto col-6">
+                        <a class="btn app-btn-secondary" href="#" data-bs-dismiss="modal">Cancelar</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,7 +158,7 @@
                             <tr>
                                 <th class="cell">Order</th>
                                 <th class="cell">Product</th>
-                                <th class="cell">Customer</th>
+                                <th class="cell">Customer</th> 
                                 <th class="cell">Date</th>
                                 <th class="cell">Status</th>
                                 <th class="cell">Total</th>

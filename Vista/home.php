@@ -13,7 +13,7 @@
      <!-- Jquery-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <!-- App CSS  -->
-    <link id="theme-style" rel="stylesheet" href="../assets/css/portal.css">
+    <link id="theme-style" rel="stylesheet" href="../assets/css/sistemaSI.css">
     
     <?php
         include ("../JS/funcionesMenu.php")
@@ -41,10 +41,10 @@
 					    <div class="app-card app-card-stat shadow-sm h-100">
 						    <div class="app-card-body p-3 p-lg-4">
 							    <h4 class="stats-type mb-1">Artículos</h4>
-							    <div class="stats-figure">100</div>
+							    <div class="stats-figure">326</div>
 							    <div class="stats-meta">Ver</div>
 						    </div>
-						    <a class="app-card-link-mask" href="#"></a>
+						    <a class="app-card-link-mask" onclick="loadFileInventarioArt('articulos','loadPage')"></a>
 					    </div>
 				    </div>
 				    <div class="col-6 col-lg-3">
@@ -54,7 +54,7 @@
 							    <div class="stats-figure">120</div>
 								<div class="stats-meta">Ver</div>
 						    </div>
-						    <a class="app-card-link-mask" href="#"></a>
+						    <a class="app-card-link-mask" onclick="loadFileInventario('equipoCompu','loadPage')"></a>
 					    </div>
 				    </div>
 				    <div class="col-6 col-lg-3">
@@ -64,7 +64,7 @@
 							    <div class="stats-figure">100</div>
 							    <div class="stats-meta">Ver</div>
 						    </div>
-						    <a class="app-card-link-mask" href="#"></a>
+						    <a class="app-card-link-mask" onclick="loadFileInventario('prestamos','loadPage')"></a>
 					    </div>
 				    </div>
 				    <div class="col-6 col-lg-3">
@@ -74,7 +74,7 @@
 							    <div class="stats-figure">6</div>
 							    <div class="stats-meta">Ver</div>
 						    </div>
-						    <a class="app-card-link-mask" href="#"></a>
+						    <a class="app-card-link-mask" onclick="loadFileSoporteMantenimiento('solicitarMante','loadPage')"></a>
 					    </div>
 				    </div>
 			    </div>
