@@ -464,9 +464,6 @@
      Page Specific JS -->
     <script src="../assets/js/app.js"></script>
 	
-	<script src="../Assets/js/formulario.js"></script>
-   <script src="js/main.js"></script>
-
 
 </body>
 

@@ -26,14 +26,21 @@
                                                 <div class="section-intro text-center">
                                                     Este tipo de usuario tendrá que registrar su correo electronico y
                                                     asignar una contraseña para poder ingresar al sistema.
-                                                    Este es una prueba.
-                                                    Este es una prueba 2
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-10">
                                                 <div class="app-card app-card-settings shadow-sm p-4">
                                                     <div class="app-card-body">
                                                         <form class="settings-form">
+                                                            <div class="row justify-content-between">
+                                                                <div class="col-12 mb-3">
+                                                                    <label for="setting-input-2" class="form-label">Rol</label>  
+                                                                    <select class="form-select" aria-label="Default select example" placeholder>
+                                                                        <option selected>Mantenimiento</option>
+                                                                        <option value="1">Soporte de redes</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
                                                             <div class="row justify-content-between">
                                                                 <div class="col-6 mb-3">
                                                                     <label for="formGroupExampleInput" class="form-label">Nombre</label>                                      
@@ -72,7 +79,7 @@
 
                                                                 </div>
                                                                 <div class="col-6 mb-3">
-                                                                    <button type="submit" class="btn app-btn-primary">Save Changes</button>  
+                                                                    <button type="submit" class="btn app-btn-primary">Registrar usuario</button>  
                                                                 </div>
                                                             </div>
                                                         </form>

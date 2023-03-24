@@ -1,6 +1,4 @@
-<h1 class="app-page-title">Prestamos</h1>
-<hr class="mb-4">
-
+<br>
 <div class="row g-4 settings-section">
     <div class="col-12 col-md-6">
         <div class="app-card app-card-settings shadow-sm p-4">
@@ -22,7 +20,7 @@
                 <div class="tab-content" id="orders-table-tab-content">
                     <div class="tab-pane fade show active" id="orders-all" role="tabpanel" aria-labelledby="orders-all-tab">
                         <div class="app-card app-card-orders-table shadow-sm mb-5">
-                            
+                            <div class="app-card-body">
                                 <div class="table-responsive">
                                     <table class="table app-table-hover mb-0 text-left">
                                         <thead>
@@ -59,7 +57,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            
+                            </div>
                         </div>
                     </div>
                 </div>              
@@ -216,6 +214,3 @@
             </form>
         </div>
     </div>
-</div>
-
-
