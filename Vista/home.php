@@ -14,6 +14,13 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <!-- App CSS  -->
     <link id="theme-style" rel="stylesheet" href="../assets/css/sistemaIS.css">
+	<!-- Material Icons-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+	<!-- Google Fonts -->
+
+	<!-- Estilos -->
+	
+
 
     <?php
         include ("../JS/funcionesMenu.php")
@@ -39,54 +46,72 @@
 				<div class="row g-4 mb-4">
 				    <div class="col-6 col-lg-3">
 					    <div class="app-card app-card-stat shadow-sm h-100">
-						    <div class="app-card-body p-3 p-lg-4">
-								<div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
-                					<i class="material-icons opacity-10">
-									<span class="nav-icon">
-										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-											class="bi bi-clipboard-check" viewBox="0 0 16 16">
-											<path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-											<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
-											<path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
-										</svg>
-                    				</span></i>
-              					</div>
-							    <h4 class="stats-type mb-1">Artículos</h4>
-							    <div class="stats-figure">326</div>
-							    <div class="stats-meta">Ver</div>
+						    <div class="card-header p-3 pt-2">
+								<div class=" icon-lg icon-shape position-absolute"><!-- <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">-->
+									<i class="material-icons opacity-10">computer</i><!-- icono -->
+								</div>
+								<div class="text-end pt-1">
+									<p class="text-sm mb-0 text-capitalize">Artículos</p>
+									<h4 class="mb-0">120</h4>
+								</div>
 						    </div>
-						    <a class="app-card-link-mask" onclick="loadFileInventarioArt('articulos','loadPage')"></a>
+							<hr class="dark horizontal my-0">
+							<div class="card-footer p-3">
+								<p class="mb-0"><span class="text-success text-sm font-weight-bolder" onclick="loadFileInventarioArt('articulos','loadPage')">Ver más detalles</span></p>
+							</div>
 					    </div>
 				    </div>
 				    <div class="col-6 col-lg-3">
 					    <div class="app-card app-card-stat shadow-sm h-100">
-						    <div class="app-card-body p-3 p-lg-4">
-							    <h4 class="stats-type mb-1">Equipos de cómputo</h4>
-							    <div class="stats-figure">120</div>
-								<div class="stats-meta">Ver</div>
-						    </div>
-						    <a class="app-card-link-mask" onclick="loadFileInventario('equipoCompu','loadPage')"></a>
-					    </div>
+							<div class="card-header p-3 pt-2">
+								<div class=" icon-lg icon-shape position-absolute"><!-- <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">-->
+									<i class="material-icons opacity-10">computer</i>
+								</div>
+								<div class="text-end pt-1">
+									<p class="text-sm mb-0 text-capitalize">Equipos</p>
+									<h4 class="mb-0">120</h4>
+								</div>
+							</div>
+							<hr class="dark horizontal my-0">
+							<div class="card-footer p-3">
+								<p class="mb-0"><span class="text-success text-sm font-weight-bolder" onclick="loadFileInventario('equipoCompu','loadPage')">Ver más detalles</span></p>
+							</div>
+						</div>
 				    </div>
-				    <div class="col-6 col-lg-3">
+					<div class="col-6 col-lg-3">
 					    <div class="app-card app-card-stat shadow-sm h-100">
-						    <div class="app-card-body p-3 p-lg-4">
-							    <h4 class="stats-type mb-1">Prestamos</h4>
-							    <div class="stats-figure">100</div>
-							    <div class="stats-meta">Ver</div>
-						    </div>
-						    <a class="app-card-link-mask" onclick="loadFileInventario('prestamos','loadPage')"></a>
-					    </div>
+							<div class="card-header p-3 pt-2">
+								<div class=" icon-lg icon-shape position-absolute"><!-- <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">-->
+									<i class="material-icons opacity-10">computer</i>
+								</div>
+								<div class="text-end pt-1">
+									<p class="text-sm mb-0 text-capitalize">Prestamos</p>
+									<h4 class="mb-0">100</h4>
+								</div>
+							</div>
+							<hr class="dark horizontal my-0">
+							<div class="card-footer p-3">
+								<p class="mb-0"><span class="text-success text-sm font-weight-bolder" onclick="loadFileInventario('prestamos','loadPage')">Ver más detalles</span></p>
+							</div>
+						</div>
 				    </div>
-				    <div class="col-6 col-lg-3">
+					<div class="col-6 col-lg-3">
 					    <div class="app-card app-card-stat shadow-sm h-100">
-						    <div class="app-card-body p-3 p-lg-4">
-							    <h4 class="stats-type mb-1">Mantenimientos</h4>
-							    <div class="stats-figure">6</div>
-							    <div class="stats-meta">Ver</div>
-						    </div>
-						    <a class="app-card-link-mask" onclick="loadFileSoporteMantenimiento('solicitarMante','loadPage')"></a>
-					    </div>
+							<div class="card-header p-3 pt-2">
+								<div class=" icon-lg icon-shape position-absolute"><!-- <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">-->
+									<i class="material-icons opacity-10">computer</i>
+								</div>
+								<div class="text-end pt-1">
+									 <p class="text-sm mb-0 text-capitalize">Mantenimientos</p>
+									<!--<h4 class="stats-type text-sm text-capitalize">Mantenimientos</h4>-->
+									<h4 class="mb-0">6</h4>
+								</div>
+							</div>
+							<hr class="dark horizontal my-0">
+							<div class="card-footer p-3">
+								<p class="mb-0"><span class="text-success text-sm font-weight-bolder" onclick="loadFileSoporteMantenimiento('solicitarMante','loadPage')">Ver más detalles</span></p>
+							</div>
+						</div>
 				    </div>
 			    </div>
 					
@@ -438,6 +463,10 @@
     <!--<script src="../assets/js/index-charts.js"></script> checar me marcaba error y lo comente.
      Page Specific JS -->
     <script src="../assets/js/app.js"></script>
+	
+	<script src="../Assets/js/formulario.js"></script>
+   <script src="js/main.js"></script>
+
 
 </body>
 

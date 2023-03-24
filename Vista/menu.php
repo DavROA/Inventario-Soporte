@@ -152,10 +152,10 @@
                 </a>
                 <div id="submenu-5" class="collapse submenu submenu-5" data-bs-parent="#menu-accordion">
                     <ul class="submenu-list list-unstyled">
-                        <li class="submenu-item"><a class="submenu-link" onclick="loadFileUsuarios('roles','loadPage')">Roles</a></li>
+                        <li class="submenu-item"><a class="submenu-link" onclick="loadFileUsuarios('agregarUsuario','loadPage')">Agregar usuario</a></li>
                         <li class="submenu-item"><a class="submenu-link" onclick="loadFileUsuarios('usuarios','loadPage')">Usuarios</a></li>
-                        <li class="submenu-item"><a class="submenu-link" onclick="loadFileUsuarios('personal','loadPage')">Personal</a></li>
-                        <li class="submenu-item"><a class="submenu-link" onclick="loadFileUsuarios('administrativo','loadPage')">Administrativo</a></li>
+                        <li class="submenu-item"><a class="submenu-link" onclick="loadFileUsuarios('roles','loadPage')">Roles</a></li>
+                        <!-- <li class="submenu-item"><a class="submenu-link" onclick="loadFileUsuarios('personal','loadPage')">Personal</a></li> -->
                     </ul>
                 </div>
             </li>
