@@ -21,7 +21,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="">Salir</a></li>
+                            <li><a  href="../Controlador/logout.php"  class="dropdown-item" href="">Salir</a></li>
                         </ul>
                     </div>
                 </div>

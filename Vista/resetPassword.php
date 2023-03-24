@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Login</title>
+    <title>Restablecer contraseña</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -24,31 +24,21 @@
                 <div class="app-auth-body mx-auto">
                     <div class="app-auth-branding mb-4"><a class="app-logo" href=""><img class="logo-icon me-2"
                                 src="../assets/images/logo-urse.png" alt="logo"></a></div>
-                    <h2 class="auth-heading text-center mb-5">Iniciar sesión</h2>
+                    <h2 class="auth-heading text-center mb-5">Restablecer contraseña</h2>
                     <div class="auth-form-container text-start">
                         <form action="../Controlador/loginController.php" method="POST">
                             <div class="email mb-3">
-                                <label class="sr-only" for="signin-email">Correo electrónico</label>
+                                <center>
+                                        <p >Ingresa tu correo electrónico para restablecer tu contraseña</p>
+                                </center> 
                                 <input id="correo" name="correo" type="email" class="form-control signin-email" placeholder="Ingresa tu correo electrónico" required="required">
                             </div>
                             <!--//form-group-->
-                            <div class="password mb-3">
-                                <label class="sr-only" for="signin-password">Contraseña</label>
-                                <input id="password" name="password" type="password"
-                                    class="form-control signin-password" placeholder="Password" required="required">
-                                <div class="extra mt-3 row justify-content-between">
-                                    <div class="col-12">
-                                        <div class="forgot-password text-end">
-                                            <a href="resetPassword.php">¿Olvidaste tu contraseña?</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="text-center">
-                                <button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">Iniciar</button>
+                                <button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">Restablecer</button>
                             </div>
                         </form>
-                        
+                        <div class="auth-option text-center pt-5"><a class="text-link" href="../Vista/login.php" >Iniciar Sesión</a></div>
                     </div>
                 </div>
             </div>
