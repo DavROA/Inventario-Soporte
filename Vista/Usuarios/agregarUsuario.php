@@ -26,8 +26,6 @@
                                                 <div class="section-intro text-center">
                                                     Este tipo de usuario tendrá que registrar su correo electronico y
                                                     asignar una contraseña para poder ingresar al sistema.
-                                                    Este es una prueba.
-                                                    Este es una prueba 2
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-10">
