@@ -14,6 +14,13 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <!-- App CSS  -->
     <link id="theme-style" rel="stylesheet" href="../assets/css/sistemaIS.css">
+	<!-- Material Icons-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+	<!-- Google Fonts -->
+
+	<!-- Estilos -->
+	
+
 
     <?php
         include ("../JS/funcionesMenu.php")
@@ -438,6 +445,10 @@
     <!--<script src="../assets/js/index-charts.js"></script> checar me marcaba error y lo comente.
      Page Specific JS -->
     <script src="../assets/js/app.js"></script>
+	
+	<script src="../Assets/js/formulario.js"></script>
+   <script src="js/main.js"></script>
+
 
 </body>
 

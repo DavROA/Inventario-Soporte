@@ -8,7 +8,6 @@
     </div>
     <div class="col-12 col-md-9">
         <div class="app-card app-card-settings shadow-sm p-4">
-
             <div class="app-card-body">
                 <form class="settings-form">
                     <div class="mb-3">

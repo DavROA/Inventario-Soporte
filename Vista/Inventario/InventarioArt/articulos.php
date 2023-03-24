@@ -1,3 +1,8 @@
+     <!-- Datatables -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css">
+<!-- Extension responsiva-->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.6/css/responsive.bootstrap.css">   
+
 <h1 class="app-page-title">Artículos</h1>
 <!-- cards de componentes-->
 <div class="row g-4 mb-4">
@@ -176,29 +181,14 @@
                                 <th class="cell">Categoría</th>
                                 <th class="cell">Fecha póliza</th>
                                 <th class="cell">Estado</th>
+                                <th class="cell">Estado</th>
                                 <th class="cell">Código QR</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            
-                        </tbody>
                     </table>
                 </div>
             </div>
         </div>
-        <nav class="app-pagination">
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                </li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                </li>
-            </ul>
-        </nav>
     </div>
 
     <div class="tab-pane fade" id="orders-paid" role="tabpanel" aria-labelledby="orders-paid-tab">
@@ -342,3 +332,10 @@
         </div>
     </div>
 </div>
+<!-- SCRIPT PARA OBTENER LOS ARTICULOS -->
+
+<script src="//code.jquery.com/jquery-3.5.1.js"></script>
+<script src="//cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+<script type="text/javascript" src="../Vista/Inventario/InventarioArt/tabla_articulos.js"></script>
+
