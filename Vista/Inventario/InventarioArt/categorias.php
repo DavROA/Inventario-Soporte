@@ -47,22 +47,14 @@
                 <div class="col-12 col-md-12">
                     <form class="settings-form">
                         <div class="mb-3">
-                            <label for="setting-input-1" class="form-label">Nombre<span class="ms-2"
-                                    data-container="body" data-bs-toggle="popover" data-trigger="hover"
-                                    data-placement="top"
-                                    data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
-                            </label>
-                            <input type="text" class="form-control" id="setting-input-1" value="Lorem Ipsum Ltd."
-                                required>
+
+
+                        <label for="formGroupExampleInput" class="form-label">Nombre</label>                                      
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">      
+                                                               
                         </div>
                         <div class="row justify-content-between">
-                            <div class="col-12 mb-3">
-                                <label for="setting-input-2" class="form-label">Estado</label>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Activo</option>
-                                    <option value="1">Inactivo</option>
-                                </select>
-                            </div>
+                            
                         </div>
                     </form>
                 </div>

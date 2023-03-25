@@ -94,7 +94,7 @@
                                 data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top"
                                 data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
                             </label>
-                            <input type="text" class="form-control" id="setting-input-1" value="Lorem Ipsum Ltd." required>
+                            <input type="text" class="form-control" id="setting-input-1" value="" required>
                         </div>
 
                         <div class="row justify-content-between">
@@ -111,10 +111,22 @@
                         </div>
                         <div class="row justify-content-between">
                             <div class="col-6 mb-3">
+                                <label for="setting-input-2" class="form-label">Proveedor</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccionar proveedor</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>    
+                            </div>
+                            <div class="col-6 mb-3">
                                 <label for="setting-input-1" class="form-label">N. Poliza<span class="ms-2" data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
                                 </span></label>
                                 <input type="text" class="form-control" id="setting-input-1" value="Poliza." required>
                             </div>
+                             
+                        </div>
+                        <div class="row justify-content-between">
                             <div class="col-6 mb-3">
                                 <label for="setting-input-2" class="form-label">Categoría</label>
                                 <select class="form-select" aria-label="Default select example">
@@ -123,9 +135,7 @@
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>    
-                            </div> 
-                        </div>
-                        <div class="row justify-content-between">
+                            </div>
                             <div class="col-6 mb-3">
                                 <label for="setting-input-2" class="form-label">Estado</label>
                                 <select class="form-select" aria-label="Default select example">
@@ -133,6 +143,13 @@
                                     <option value="1">Inactivo</option>
                                 </select>    
                             </div> 
+                        </div>
+                        <div class="mb-3">
+                            <label for="setting-input-1" class="form-label">Descripción<span class="ms-2"
+                                data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top"
+                                data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
+                            </label>
+                            <input type="text" class="form-control" id="setting-input-1" value="" required>
                         </div>
                     </form>
                 </div>

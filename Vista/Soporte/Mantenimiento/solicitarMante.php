@@ -42,7 +42,7 @@
                             <input type="date" class="form-control" id="setting-input-1" value="" required>
                         </div>
                         <div class="col-6 mb-3">
-                            <label for="setting-input-1" class="form-label">Fecha estimada de entrega<span class="ms-2"
+                            <label for="setting-input-1" class="form-label">Estimada de entrega<span class="ms-2"
                                 data-container="body" data-bs-toggle="popover" data-trigger="hover" data-placement="top"
                                 data-content="This is a Bootstrap popover example. You can use popover to provide extra info.">
                             </label>
